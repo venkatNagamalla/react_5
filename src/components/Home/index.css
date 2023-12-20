@@ -1,0 +1,23 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+  padding: 0px;
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  background: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
